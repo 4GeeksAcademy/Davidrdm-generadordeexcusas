@@ -7,7 +7,7 @@
     width: 100%;
 }
 head {
-    background-title: red;
+    color: red;
 }
 body {
     background: lightcyan;
@@ -26,8 +26,6 @@ button {
     max-width: 180px;
     text-decoration: none;
     border-radius: 5px;
-    border: 0px;
-    background-color: transparent;
 }
 #excuse{
     text-align: center;
