@@ -1,5 +1,6 @@
 // window.onload = function() {};
 let buttonGenerator = document.querySelector(".buttonGenerator");
+let textExcuse = document.querySelector(".textExcuse");
 buttonGenerator.addEventListener("click", function() {
   // array with the words
   let article = ["El", "Mi"];
@@ -31,7 +32,7 @@ buttonGenerator.addEventListener("click", function() {
   let numpossetion = Math.floor(Math.random() * possetion.length);
   let numwhere = Math.floor(Math.random() * where.length);
 
-  let textExcuse = document.querySelector(".textExcuse");
+  
 
   if (numarticle == 0) {
     if (numnoun == 1) {
@@ -40,5 +41,5 @@ buttonGenerator.addEventListener("click", function() {
   }
   // creating a sentences (textExcuse)
 
-  textExcuse.innerHTML = `${article[numarticle]} ${adj[numadj]} ${noun[numnoun]} ${action[numaction]} ${possetion[numpossetion]} ${where[numwhere]}`;
+  textExcuse.innerText = `${article[numarticle]} ${adj[numadj]} ${noun[numnoun]} ${action[numaction]} ${possetion[numpossetion]} ${where[numwhere]}`;
 });
