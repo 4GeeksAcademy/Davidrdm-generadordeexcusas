@@ -4,28 +4,31 @@
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    width: 100%;
+    width: 400px;
+    background-color: white;
 }
 head {
     color: red;
 }
 body {
     background: lightcyan;
+    
 
 }
 p{
     width: 100px;
-    font-size: 50px;
+    font-size: 30px;
     display: inline;
 }
 button {
     display: flex;
-    padding: 30px;
+    padding: 15px;
     font-size: 15px;
     margin: 20px auto;
     max-width: 180px;
     text-decoration: none;
     border-radius: 5px;
+    background-color: lightcyan;
 }
 #excuse{
     text-align: center;

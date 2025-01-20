@@ -72,7 +72,7 @@ module.exports = {
     new ErrorOverlayPlugin(),
     new HtmlWebpackPlugin({
         filename: "index.html",
-        template: "src/index.html"
+        template: "./index.html"
     }),
     new PrettierPlugin({
         failSilently: true

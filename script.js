@@ -1,19 +1,20 @@
 // window.onload = function() {};
 let buttonGenerator = document.querySelector(".buttonGenerator");
 let textExcuse = document.querySelector(".textExcuse");
+
 buttonGenerator.addEventListener("click", function() {
   // array with the words
-  let article = ["El", "Mi"];
+  let article = ["El", "Mi","La"];
   let adj = ["rojo", "divertido", "locura", "luminoso", "brillante"];
   let noun = ["conductor", "coche", "carretera", "paisaje", "perro"];
-  let action = ["tocarme", " robarme", "trabajar", "conducir", " limpiar"];
+  let action = ["toca", " roba", "trabaja", "conduce", " limpia"];
   let possetion = [
-    "Mi garaje",
-    "mi trabajo",
+    "el garaje",
+    "el trabajo",
     "mi casa",
     "mi jardin",
-    "mi calle",
-    "mi vecino",
+    "la calle",
+    "el vecino",
     "mi perro"
   ];
   let where = [
