@@ -10,7 +10,7 @@ buttonGenerator.addEventListener("click", function() {
   let action = ["toca", " roba", "trabaja", "conduce", " limpia"];
   let possetion = [
     "el garaje",
-    "el trabajo",
+    "el trabajo" ,
     "mi casa",
     "mi jardin",
     "la calle",
